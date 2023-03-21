@@ -63,11 +63,11 @@ export default function App(props) {
         onClick={() => {
           setUser((obj) => ({
             ...obj,
-            name: '愧怍',
+            name: '大盗天放',
           }))
         }}
       >
-        set name as 愧怍
+        set name as 大盗天放
       </button>
     </div>
   )

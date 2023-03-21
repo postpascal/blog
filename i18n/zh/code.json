@@ -12,12 +12,12 @@
     "message": "Hello! 我是",
     "description": "hero greet"
   },
-  "愧怍": {
-    "message": "愧怍",
+  "大盗天放": {
+    "message": "大盗天放",
     "description": "my name"
   },
   "homepage.hero.text": {
-    "message": "在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。",
+    "message": "这是我的个人网站，我会在这里分享一些技术文章，投资和读书心得",
     "description": "hero text"
   },
   "homepage.hero.look":{

@@ -1,18 +1,18 @@
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = ''
 
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '大盗天放的小站',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'tianfang',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: '天地不仁',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
@@ -23,15 +23,15 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: '大盗天放',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, javascript, Java, Python, Apple, IOS, SwiftUI',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向，现在主攻ts全栈',
+        content: '独立开发者, 独立投资人, 算法工程师, IOSAPP，数字游民',
       },
     ],
     docs: {
@@ -40,14 +40,49 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: '大盗天放',
       logo: {
-        alt: '愧怍',
+        alt: '大盗天放',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
+       
+        {
+          label: '阅读',
+          position: 'right',
+          items: [
+            {
+              label: '标签',
+              to: 'tags',
+            },
+           
+          ],
+        },
+
+        {
+          label: '投资',
+          position: 'right',
+          items: [
+            {
+              label: '标签',
+              to: 'tags',
+            },
+           
+          ],
+        },
+        {
+          label: '技术',
+          position: 'right',
+          items: [
+            {
+              label: '标签',
+              to: 'tags',
+            },
+           
+          ],
+        },
         {
           label: '学习',
           position: 'right',
@@ -153,11 +188,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
-            },
-            {
-              label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              href: 'https://github.com/postpascal',
             },
             {
               label: 'Discord',
@@ -178,18 +209,10 @@ const config = {
               position: 'right',
               to: 'resource',
             },
-            // {
-            //   label: '我的站点',
-            //   position: 'right',
-            //   to: 'website',
-            // },
-            {
-              html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
-            },
           ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+      copyright: `<p>Copyright © 2023 -大盗天放</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -243,13 +266,10 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
+      github: 'https://github.com/postpascal',
       twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
       zhihu: 'https://www.zhihu.com/people/kuizuo',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+
     },
   },
   headTags: [
@@ -257,7 +277,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '大盗天放的个人博客',
       },
     },
   ],
@@ -301,7 +321,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: '大盗天放的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,8 +330,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '大盗天放',
+          copyright: `Copyright © ${new Date().getFullYear()} 大盗天放 Built with Docusaurus`,
         },
       },
     ],
