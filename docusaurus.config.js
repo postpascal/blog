@@ -55,7 +55,7 @@ const config = {
 
         {
           label: '投资',
-          to: 'docs/invest/investMethodology',
+          to: 'docs/investMethodology',
         },
         {
           label: '技术',
