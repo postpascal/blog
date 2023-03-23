@@ -329,6 +329,29 @@ const sidebars = {
     'tools/idea-config',
     'tools/vite-plugin',
     'tools/jetbrains-product-activation-method',
+  ],
+  reading: [
+    'reading/readMethodology',
+    {
+      label: '2023年',
+      type: 'category',
+      collapsed: true,
+      items: [
+        'reading/readtest'
+      ],
+    },
+  ]
+  ,
+  invest: [
+    'invest/investMethodology',
+    {
+      label: '2023年',
+      type: 'category',
+      collapsed: true,
+      items: [
+        'invest/investMethodology'
+      ],
+    },
   ]
 }
 

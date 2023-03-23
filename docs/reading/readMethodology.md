@@ -1,13 +1,12 @@
 ---
-id: readtest
-title: 阅读测试
-sidebar_label: 阅读测试
-tags: [投资]
-keywords: [投资]
-
+id: readMethodology
+title: 阅读方法论
+sidebar_label: 阅读方法论
+tags: [方法论]
+keywords: [方法论]
 ---
 
-# 颠覆式创新
+# 阅读方法论
 > 李善友
 * 小公司要想打败大公司必须在大公司的盲区，做大些大公司不会，不屑做的事
 * 公司要想长久存在，必须保持生命力，生长力。破坏，再创新。

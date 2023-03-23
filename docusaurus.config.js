@@ -1,5 +1,5 @@
 const path = require('path')
-const beian = ''
+const beian = '闽ICP备'
 
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
@@ -50,32 +50,12 @@ const config = {
       items: [
         {
           label: '阅读',
-          to:'/docs/reading/readtest',
-
+          to:'docs/reading/readMethodology',
         },
-
-        // {
-        //   label: '阅读',
-        //   position: 'left',
-        //   items: [
-        //     {
-        //       label: '阅读',
-        //       to: '/docs/reading/readtest',
-        //     },
-           
-        //   ],
-        // },
 
         {
           label: '投资',
-          position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-           
-          ],
+          to: 'docs/invest/investMethodology',
         },
         {
           label: '技术',
@@ -89,71 +69,82 @@ const config = {
           ],
         },
         {
-          label: '学习',
+          label: '产品',
           position: 'right',
           items: [
             {
-              label: '标签',
-              to: 'tags',
+              label: '秩序目标',
+              to: 'https://www.orderokr.com/',
             },
-            {
-              label: '归档',
-              to: 'archive',
-            },
-            {
-              label: '笔记',
-              to: 'docs/skill/',
-            },
-            {
-              label: '工具推荐',
-              to: 'docs/tools/',
-            },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+           
           ],
         },
-        {
-          label: '工具',
-          position: 'right',
-          items: [
-            {
-              label: 'API服务',
-              to: 'https://api.kuizuo.cn',
-            },
-            {
-              label: 'JS代码还原',
-              to: 'https://js-de-obfuscator.kuizuo.cn',
-            },
-            {
-              label: 'CyberChef加密',
-              to: 'https://cipher.kuizuo.cn',
-            },
-            {
-              label: 'Transform',
-              to: 'https://transform.kuizuo.cn',
-            },
-            {
-              label: '网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
-          ],
-        },
-        {
-          label: '导航',
-          position: 'right',
-          to: 'resource',
-        },
-        {
-          label: '项目',
-          position: 'right',
-          to: 'project',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // {
+        //   label: '学习',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: '标签',
+        //       to: 'tags',
+        //     },
+        //     {
+        //       label: '归档',
+        //       to: 'archive',
+        //     },
+        //     {
+        //       label: '笔记',
+        //       to: 'docs/skill/',
+        //     },
+        //     {
+        //       label: '工具推荐',
+        //       to: 'docs/tools/',
+        //     },
+        //     {
+        //       label: '前端示例',
+        //       to: 'https://example.kuizuo.cn',
+        //     },
+        //   ],
+        // },
+        // {
+        //   label: '工具',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: 'API服务',
+        //       to: 'https://api.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'JS代码还原',
+        //       to: 'https://js-de-obfuscator.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'CyberChef加密',
+        //       to: 'https://cipher.kuizuo.cn',
+        //     },
+        //     {
+        //       label: 'Transform',
+        //       to: 'https://transform.kuizuo.cn',
+        //     },
+        //     {
+        //       label: '网盘',
+        //       to: 'https://pan.kuizuo.cn',
+        //     },
+        //   ],
+        // },
+        // {
+        //   label: '导航',
+        //   position: 'right',
+        //   to: 'resource',
+        // },
+        // {
+        //   label: '项目',
+        //   position: 'right',
+        //   to: 'project',
+        // },
+        // {
+        //   type: 'localeDropdown',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
