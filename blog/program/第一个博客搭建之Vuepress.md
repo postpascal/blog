@@ -95,7 +95,7 @@ tagline: 我是大盗天放,沉迷于代码无法自拔
 
 ```js {2-3}
 module.exports = {
-  title: '大盗天放的小站',
+  title: '大盗天放',
   description: '如果代码都解决不了的话,那可能真的解决不了',
 }
 ```

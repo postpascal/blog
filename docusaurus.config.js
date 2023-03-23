@@ -5,7 +5,7 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '大盗天放的小站',
+  title: '大盗天放',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
@@ -48,18 +48,23 @@ const config = {
       },
       hideOnScroll: true,
       items: [
-       
         {
           label: '阅读',
-          position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-           
-          ],
+          to:'/docs/reading/readtest',
+
         },
+
+        // {
+        //   label: '阅读',
+        //   position: 'left',
+        //   items: [
+        //     {
+        //       label: '阅读',
+        //       to: '/docs/reading/readtest',
+        //     },
+           
+        //   ],
+        // },
 
         {
           label: '投资',
@@ -364,7 +369,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(51 139 255)',
+            content: 'rgb(25 25 112)',
           },
         ],
       },

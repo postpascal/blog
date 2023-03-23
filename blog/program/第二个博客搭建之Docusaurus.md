@@ -10,7 +10,7 @@ image: /img/project/blog.png
 sticky: 5
 ---
 
-博客地址: [大盗天放的小站](https://kuizuo.cn/)
+博客地址: [大盗天放](https://kuizuo.cn/)
 
 时隔近半年没好好整理文章，博客也写的不像个人样。:joy:
 
