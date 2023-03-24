@@ -1,22 +1,11 @@
 ---
-title: "K-Means聚类"
-author: Zhang Keke
-date: 2018-09-15
-categories:
-  - MACHINE LEARNING
-tags:
-  - math
-  - mechine learning
----
-
----
 id: kmeans
 slug: /kmeans
 title: K-Means聚类
 date: 2018-09-15
 authors: tianfang
-tags: [方法论,机器学习,无监督学习]
-keywords: [方法论]
+tags: [聚类,机器学习,无监督学习]
+keywords: [聚类,机器学习,无监督学习]
 ---
 
 `K-Means 聚类 矩阵形式`

@@ -4,8 +4,8 @@ slug: /dbscan
 title: 密度聚类
 date: 2018-07-17
 authors: tianfang
-tags: [方法论,机器学习,无监督学习]
-keywords: [方法论]
+tags: [dbscan,机器学习,无监督学习]
+keywords: [dbscan,机器学习,无监督学习]
 ---
 
 `密度聚类假设：聚类结构能通过样本分布的紧密程度来确认`

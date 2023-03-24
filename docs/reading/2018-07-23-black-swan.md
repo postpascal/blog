@@ -3,8 +3,8 @@ id: blackswan
 title: 黑天鹅
 date: 2018-07-23
 authors: ddtf
-tags: [方法论]
-keywords: [方法论]
+tags: [投资,塔勒布,黑天鹅]
+keywords: [投资,塔勒布,黑天鹅]
 ---
 
 # 一半对一半  如何与黑天鹅打成平手

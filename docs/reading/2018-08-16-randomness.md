@@ -3,8 +3,8 @@ id: randomfools
 title: 随机漫步的傻瓜
 date: 2018-08-16
 authors: ddtf
-tags: [方法论]
-keywords: [方法论]
+tags: [投资,塔勒布]
+keywords: [投资,塔勒布]
 ---
 
 # 随机现象与优雅行为

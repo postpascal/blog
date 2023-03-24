@@ -3,8 +3,8 @@ id: waytowealthfree
 title: 财富自由之路
 date: 2018-10-2
 authors: ddtf
-tags: [方法论]
-keywords: [方法论]
+tags: [投资,理财,财务自由]
+keywords: [投资,理财,财务自由]
 ---
 
 

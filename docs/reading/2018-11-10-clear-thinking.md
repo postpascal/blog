@@ -3,8 +3,8 @@ id: artofthinking
 title: 清醒思考的艺术
 date: 2018-11-10
 authors: ddtf
-tags: [方法论]
-keywords: [方法论]
+tags: [投资,心理谬误]
+keywords: [投资,心理谬误]
 ---
 
 ## 清醒思考的艺术

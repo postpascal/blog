@@ -4,8 +4,8 @@ slug: /mle
 title: Maximum Likelihood Estimation
 date: 2017-02-03
 authors: tianfang
-tags: [方法论,机器学习,无监督学习]
-keywords: [方法论]
+tags: [最大似然估计,机器学习,无监督学习]
+keywords: [最大似然估计,机器学习,无监督学习]
 
 ---
 

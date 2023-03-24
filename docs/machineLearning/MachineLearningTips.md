@@ -1,4 +1,3 @@
-
 ---
 id: MachineLearningTips
 slug: /MachineLearningTips
@@ -6,7 +5,7 @@ title: Machine Learning Tips
 date: 2017-02-23
 authors: tianfang
 tags: [方法论,机器学习,无监督学习]
-keywords: [方法论]
+keywords: [方法论,机器学习,无监督学习]
 ---
 
 
