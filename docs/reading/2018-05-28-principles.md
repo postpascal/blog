@@ -2,7 +2,7 @@
 id: principles
 title: PRINCIPLES
 date: 2018-05-28
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---

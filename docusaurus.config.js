@@ -5,12 +5,11 @@ const katex = require('rehype-katex');
 
 
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '大盗天放',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://ddtf.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tianfang',
@@ -19,10 +18,10 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
-    announcementBar: {
-      id: 'announcementBar-3',
-      content: announcementBarContent,
-    },
+    // announcementBar: {
+    //   id: 'announcementBar-3',
+    //   content: announcementBarContent,
+    // },
     metadata: [
       {
         name: 'keywords',
@@ -122,32 +121,7 @@ const config = {
         //     },
         //   ],
         // },
-        // {
-        //   label: '工具',
-        //   position: 'right',
-        //   items: [
-        //     {
-        //       label: 'API服务',
-        //       to: 'https://api.kuizuo.cn',
-        //     },
-        //     {
-        //       label: 'JS代码还原',
-        //       to: 'https://js-de-obfuscator.kuizuo.cn',
-        //     },
-        //     {
-        //       label: 'CyberChef加密',
-        //       to: 'https://cipher.kuizuo.cn',
-        //     },
-        //     {
-        //       label: 'Transform',
-        //       to: 'https://transform.kuizuo.cn',
-        //     },
-        //     {
-        //       label: '网盘',
-        //       to: 'https://pan.kuizuo.cn',
-        //     },
-        //   ],
-        // },
+
         // {
         //   label: '导航',
         //   position: 'right',
@@ -271,14 +245,14 @@ const config = {
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
-    giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-      category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
-      theme: 'light',
-      darkTheme: 'dark',
-    },
+    // giscus: {
+    //   repo: 'kuizuo/blog',
+    //   repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+    //   category: 'General',
+    //   categoryId: 'DIC_kwDOF7NJDM4CPK95',
+    //   theme: 'light',
+    //   darkTheme: 'dark',
+    // },
     liveCodeBlock: {
       playgroundPosition: 'top',
     },
@@ -348,8 +322,8 @@ const config = {
       {
         path: 'blog',
         routeBasePath: '/',
-        editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+        // editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
+        //   `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '大盗天放的个人博客',
         blogSidebarCount: 10,

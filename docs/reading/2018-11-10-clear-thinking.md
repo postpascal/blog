@@ -2,7 +2,7 @@
 id: artofthinking
 title: 清醒思考的艺术
 date: 2018-11-10
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---

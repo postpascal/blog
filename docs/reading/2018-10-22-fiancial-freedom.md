@@ -2,7 +2,7 @@
 id: waytowealthfree
 title: 财富自由之路
 date: 2018-10-2
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---

@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "2.3.1",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "Kuizuo"
+    "url": "https://github.com/postpascal",
+    "email": "opendayoff@outlook.com",
+    "name": "ddtf"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/kuizpostpascaluo/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://ddtf.top",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

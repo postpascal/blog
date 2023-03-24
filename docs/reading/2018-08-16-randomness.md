@@ -2,7 +2,7 @@
 id: randomfools
 title: 随机漫步的傻瓜
 date: 2018-08-16
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---

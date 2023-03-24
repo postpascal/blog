@@ -2,7 +2,7 @@
 id: blackswan
 title: 黑天鹅
 date: 2018-07-23
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---

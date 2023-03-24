@@ -2,7 +2,7 @@
 id: whysmallteamswin
 title: why small teams win
 date: 2018-05-15
-authors: kuizuo
+authors: ddtf
 tags: [方法论]
 keywords: [方法论]
 ---
