@@ -240,7 +240,7 @@ const config = {
       config: {},
     },
     matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
+      matomoUrl: 'https://ddtftop.matomo.cloud/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
