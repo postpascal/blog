@@ -42,8 +42,8 @@ function Hero() {
             id="homepage.hero.look"
             values={{
               note: (
-                <Link to="/docs/skill">
-                  <Translate id="hompage.hero.note">技术笔记</Translate>
+                <Link to="https://orderokr.com/">
+                  <Translate id="hompage.hero.note">秩序目标</Translate>
                 </Link>
               ),
               project: (
@@ -63,7 +63,7 @@ function Hero() {
               ),
             }}
           >
-            {`你可以随处逛逛，查看{note}、{project}、{link}、以及我的{idea}。`}
+            {`你可以看看我的产品 {note}、{project}、{link}、以及我的{idea}。`}
           </Translate>
         </animated.p>
         <SocialLinks style={trails[2]} />
@@ -89,6 +89,8 @@ export function SocialLinks({ ...prop }) {
     juejin: string
     csdn: string
     qq: string
+    jike: string
+    redbook: string
     wx: string
     cloudmusic: string
     zhihu: string
@@ -96,17 +98,17 @@ export function SocialLinks({ ...prop }) {
 
   return (
     <animated.div className={styles.social__links} {...prop}>
-      <a href="/rss.xml" target="_blank">
+      {/* <a href="/rss.xml" target="_blank">
         <Icon icon="ri:rss-line" />
-      </a>
+      </a> */}
       <a href={socials.github} target="_blank">
         <Icon icon="ri:github-line" />
       </a>
-      <a href={socials.juejin} target="_blank">
-        <JuejinIcon />
+      <a href={socials.jike} target="_blank">
+        <Icon icon="mdi:alpha-j" />
       </a>
-      <a href={socials.qq} target="_blank">
-        <Icon icon="ri:qq-line" />
+      <a href={socials.redbook} target="_blank">
+        <Icon icon="material-symbols:menu-book" />
       </a>
       <a href={socials.twitter} target="_blank">
         <Icon icon="ri:twitter-line" />

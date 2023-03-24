@@ -205,9 +205,9 @@ function BlogListPageContent(props: Props) {
       <BackToTopButton />
 
       {/* 我的项目 */}
-      {!isPaginated && isBlogOnlyMode && (
+      {/* {!isPaginated && isBlogOnlyMode && (
         <BlogRecommend isPaginated={isPaginated} isCardView={isCardView} />
-      )}
+      )} */}
 
       {/* 最新博客 */}
       {/* <div className="container-wrapper">

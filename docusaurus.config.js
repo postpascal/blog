@@ -51,14 +51,25 @@ const config = {
       },
       hideOnScroll: true,
       items: [
+
+        {
+          label: '秩序目标',
+          position: 'right',
+          to:'https://www.orderokr.com/',
+        },
+
         {
           label: '阅读',
+
+          position: 'right',
           to:'/docs/reading/richdad',
         },
-        // {
-        //   label: '投资',
-        //   to: '/docs/invest/investMethodology',
-        // },
+        {
+          label: '投资',
+
+          position: 'right',
+          to: '/docs/invest/investMethodology',
+        },
         {
           label: '技术',
           position: 'right',
@@ -81,6 +92,10 @@ const config = {
             {
               label: '秩序目标',
               to: 'https://www.orderokr.com/',
+            },
+            {
+              label: '巴菲特说',
+              to: 'https://buffettsay.vercel.app/',
             },
            
           ],
@@ -157,7 +172,7 @@ const config = {
           items: [
             {
               label: '标签',
-              to: 'tags',
+              to: '/docs/tags',
             },
             {
               label: '归档',
@@ -184,12 +199,8 @@ const config = {
           title: '社交媒体',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/postpascal',
-            },
-            {
-              label: 'Bilibili',
-              href: 'https://space.bilibili.com/29077665',
+              label: '即刻',
+              href: 'https://okjk.co/LNZ7PQ',
             },
             {
               label: 'Twitter',
@@ -197,26 +208,26 @@ const config = {
             },
             {
               label: '小红书',
-              href: 'https://twitter.com/dadaotianfang',
+              href: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
             },
 
           ],
         },
-        {
-          title: '更多',
-          items: [
-            {
-              label: '友链',
-              position: 'right',
-              to: 'friends',
-            },
-            {
-              label: '导航',
-              position: 'right',
-              to: 'resource',
-            },
-          ],
-        },
+        // {
+        //   title: '更多',
+        //   items: [
+        //     {
+        //       label: '友链',
+        //       position: 'right',
+        //       to: 'friends',
+        //     },
+        //     {
+        //       label: '导航',
+        //       position: 'right',
+        //       to: 'resource',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `<p>Copyright © 2023 -大盗天放</p>`,
     },
@@ -273,8 +284,10 @@ const config = {
     },
     socials: {
       github: 'https://github.com/postpascal',
-      twitter: 'https://twitter.com/kuizuo',
-      zhihu: 'https://www.zhihu.com/people/kuizuo',
+      twitter: 'https://twitter.com/dadaotianfang',
+      jike:  'https://okjk.co/LNZ7PQ',
+      redbook: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
+      zhihu: 'https://www.zhihu.com/people/opendayoff'
 
     },
   },
