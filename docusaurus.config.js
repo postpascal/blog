@@ -246,6 +246,12 @@ const config = {
       jsLoader: 'matomo.js',
     },
     giscus: {
+      repo: 'kuizuog',
+      repoId: 'MDEwOlJlcGkzOTc2MjU2MTI=',
+      category: 'General',
+      categoryId: 'DIC_kwDOM4CPK95',
+      theme: 'light',
+      darkTheme: 'dark',
       // repo: 'kuizuo/blog',
       // repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       // category: 'General',
