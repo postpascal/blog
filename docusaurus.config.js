@@ -1,5 +1,8 @@
 const path = require('path')
 const beian = '闽ICP备'
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 
@@ -50,20 +53,23 @@ const config = {
       items: [
         {
           label: '阅读',
-          to:'/blog',
+          to:'/docs/reading/richdad',
         },
-
-        {
-          label: '投资',
-          to: 'investMethodology',
-        },
+        // {
+        //   label: '投资',
+        //   to: '/docs/invest/investMethodology',
+        // },
         {
           label: '技术',
           position: 'right',
           items: [
             {
               label: '标签',
-              to: 'tags',
+              to: '/docs/tags',
+            },
+            {
+              label: '机器学习',
+              to: '/docs/dbscan',
             },
            
           ],
@@ -79,28 +85,28 @@ const config = {
            
           ],
         },
-        {
-          label: '学习',
-          position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-            {
-              label: '归档',
-              to: 'archive',
-            },
-            {
-              label: '笔记',
-              to: 'docs/skill/',
-            },
-            {
-              label: '工具推荐',
-              to: 'docs/tools/',
-            },
-          ],
-        },
+        // {
+        //   label: '学习',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: '标签',
+        //       to: 'tags',
+        //     },
+        //     {
+        //       label: '归档',
+        //       to: 'archive',
+        //     },
+        //     {
+        //       label: '笔记',
+        //       to: 'docs/skill/',
+        //     },
+        //     {
+        //       label: '工具推荐',
+        //       to: 'docs/tools/',
+        //     },
+        //   ],
+        // },
         // {
         //   label: '工具',
         //   position: 'right',
@@ -289,6 +295,8 @@ const config = {
         docs: {
           path: 'docs',
           sidebarPath: 'sidebars.js',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: false,
         theme: {
@@ -305,6 +313,15 @@ const config = {
         // debug: true,
       }),
     ],
+  ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
   ],
   // themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [

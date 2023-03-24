@@ -1,5 +1,6 @@
 ---
-slug: dbscan
+id: dbscan
+slug: /dbscan
 title: 密度聚类
 date: 2018-07-17
 authors: tianfang

@@ -1,0 +1,43 @@
+---
+id: mle
+slug: /mle
+title: Maximum Likelihood Estimation
+date: 2017-02-03
+authors: tianfang
+tags: [方法论,机器学习,无监督学习]
+keywords: [方法论]
+
+---
+
+### Bayesian Rule:
+
+
+$$P(\theta|D)=\frac{P(D|\theta)P(\theta)}{P(D)}$$
+
+
+
+$P(D \mid \theta) \Rightarrow$ Likelihood
+
+$P(\theta) \Rightarrow$ prior
+
+$P(\theta \mid D) \Rightarrow$ posterior
+
+$P(D) \Rightarrow$ marginal likelihood
+
+
+### Maximum Likelihood Estimation (MLE)
+AKA:最大似然估计，likelihood AKA: 似然函数
+
+$$P(D|\theta)=\prod\limits_{x_i \in D} p(x_i|\theta)$$
+
+Apply log operation to avoid underflow
+
+$$logP(D|\theta)=\sum\limits_{x_i \in D}log(p(x_i|\theta))$$
+
+$$\theta=arg\space  MAX\space  logP(D|\theta)$$
+
+For instance,if $$P(x \mid \theta) \sim N(u,\sigma^2)$$
+
+$$\hat{u}=\frac{1}{|D|}\sum\limits_{x_i \in D} x_i$$
+
+$$\hat{\sigma}^2=\frac{1}{|D|}\sum\limits_{x_i \in D}(x_i-\hat{u})(x_i-\hat{u})^T$$
