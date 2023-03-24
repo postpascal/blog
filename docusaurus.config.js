@@ -245,14 +245,14 @@ const config = {
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
-    // giscus: {
-    //   repo: 'kuizuo/blog',
-    //   repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-    //   category: 'General',
-    //   categoryId: 'DIC_kwDOF7NJDM4CPK95',
-    //   theme: 'light',
-    //   darkTheme: 'dark',
-    // },
+    giscus: {
+      repo: 'kuizuo/blog',
+      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      category: 'General',
+      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      theme: 'light',
+      darkTheme: 'dark',
+    },
     liveCodeBlock: {
       playgroundPosition: 'top',
     },
