@@ -50,12 +50,12 @@ const config = {
       items: [
         {
           label: '阅读',
-          to:'docs/reading/readMethodology',
+          to:'/blog',
         },
 
         {
           label: '投资',
-          to: 'docs/investMethodology',
+          to: 'investMethodology',
         },
         {
           label: '技术',
@@ -79,32 +79,28 @@ const config = {
            
           ],
         },
-        // {
-        //   label: '学习',
-        //   position: 'right',
-        //   items: [
-        //     {
-        //       label: '标签',
-        //       to: 'tags',
-        //     },
-        //     {
-        //       label: '归档',
-        //       to: 'archive',
-        //     },
-        //     {
-        //       label: '笔记',
-        //       to: 'docs/skill/',
-        //     },
-        //     {
-        //       label: '工具推荐',
-        //       to: 'docs/tools/',
-        //     },
-        //     {
-        //       label: '前端示例',
-        //       to: 'https://example.kuizuo.cn',
-        //     },
-        //   ],
-        // },
+        {
+          label: '学习',
+          position: 'right',
+          items: [
+            {
+              label: '标签',
+              to: 'tags',
+            },
+            {
+              label: '归档',
+              to: 'archive',
+            },
+            {
+              label: '笔记',
+              to: 'docs/skill/',
+            },
+            {
+              label: '工具推荐',
+              to: 'docs/tools/',
+            },
+          ],
+        },
         // {
         //   label: '工具',
         //   position: 'right',
@@ -161,35 +157,43 @@ const config = {
               label: '归档',
               to: 'archive',
             },
+
+          ],
+        },
+        {
+          title: '产品',
+          items: [
             {
-              label: '技术笔记',
-              to: 'docs/skill',
+              label: '秩序目标',
+              href: 'https://www.orderokr.com/',
             },
             {
-              label: '实战项目',
-              to: 'project',
+              label: '巴菲特说',
+              href: 'https://buffettsay.vercel.app/',
             },
-            {
-              label: '前端示例',
-              to: 'https://example.kuizuo.cn',
-            },
+          
           ],
         },
         {
           title: '社交媒体',
           items: [
             {
-              label: '关于我',
-              to: '/about',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/postpascal',
             },
             {
-              label: 'Discord',
-              href: 'https://discord.gg/M8cVcjDxkz',
+              label: 'Bilibili',
+              href: 'https://space.bilibili.com/29077665',
             },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/dadaotianfang',
+            },
+            {
+              label: '小红书',
+              href: 'https://twitter.com/dadaotianfang',
+            },
+
           ],
         },
         {
