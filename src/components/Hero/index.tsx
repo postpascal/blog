@@ -38,7 +38,7 @@ function Hero() {
           </Translate>
           <br />
           <br />
-          <Translate
+          {/* <Translate
             id="homepage.hero.look"
             values={{
               note: (
@@ -64,7 +64,7 @@ function Hero() {
             }}
           >
             {`你可以看看我的产品 {note}、{project}、{link}、以及我的{idea}。`}
-          </Translate>
+          </Translate> */}
         </animated.p>
         <SocialLinks style={trails[2]} />
         <animated.div style={trails[3]}>
@@ -105,7 +105,7 @@ export function SocialLinks({ ...prop }) {
         <Icon icon="ri:github-line" />
       </a>
       <a href={socials.jike} target="_blank">
-        <Icon icon="mdi:alpha-j" />
+        <Icon icon="mdi:alpha-j-circle-outline" />
       </a>
       <a href={socials.redbook} target="_blank">
         <Icon icon="material-symbols:menu-book" />
