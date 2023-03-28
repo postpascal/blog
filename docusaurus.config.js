@@ -132,10 +132,10 @@ const config = {
         //   position: 'right',
         //   to: 'project',
         // },
-        // {
-        //   type: 'localeDropdown',
-        //   position: 'right',
-        // },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     footer: {
