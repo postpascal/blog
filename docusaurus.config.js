@@ -184,6 +184,11 @@ const config = {
               label: '小红书',
               href: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
             },
+            {
+              label: 'bento',
+              href: 'https://bento.me/ddtf',
+            },
+            
 
           ],
         },
