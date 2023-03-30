@@ -1,5 +1,5 @@
 const path = require('path')
-const beian = '闽ICP备'
+const beian = ''
 const math = require('remark-math');
 const katex = require('rehype-katex');
 
@@ -44,61 +44,60 @@ const config = {
     navbar: {
       title: '大盗天放',
       logo: {
-        alt: '大盗天放',
+        alt: 'ddtf',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
-
         {
-          label: '秩序目标',
+          label: 'OrderOkr',
           position: 'right',
           to:'https://www.orderokr.com/',
         },
 
-        {
-          label: '阅读',
+        // {
+        //   label: '阅读',
 
-          position: 'right',
-          to:'/docs/reading/richdad',
-        },
-        {
-          label: '投资',
+        //   position: 'right',
+        //   to:'/docs/reading/richdad',
+        // },
+        // {
+        //   label: '投资',
 
-          position: 'right',
-          to: '/docs/invest/investMethodology',
-        },
-        {
-          label: '技术',
-          position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: '/docs/tags',
-            },
-            {
-              label: '机器学习',
-              to: '/docs/dbscan',
-            },
+        //   position: 'right',
+        //   to: '/docs/invest/investMethodology',
+        // },
+        // {
+        //   label: '技术',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: '标签',
+        //       to: '/docs/tags',
+        //     },
+        //     {
+        //       label: '机器学习',
+        //       to: '/docs/dbscan',
+        //     },
            
-          ],
-        },
-        {
-          label: '产品',
-          position: 'right',
-          items: [
-            {
-              label: '秩序目标',
-              to: 'https://www.orderokr.com/',
-            },
-            {
-              label: '巴菲特说',
-              to: 'https://buffettsay.vercel.app/',
-            },
+        //   ],
+        // },
+        // {
+        //   label: '产品',
+        //   position: 'right',
+        //   items: [
+        //     {
+        //       label: '秩序目标',
+        //       to: 'https://www.orderokr.com/',
+        //     },
+        //     {
+        //       label: '巴菲特说',
+        //       to: 'https://buffettsay.vercel.app/',
+        //     },
            
-          ],
-        },
+        //   ],
+        // },
         // {
         //   label: '学习',
         //   position: 'right',
@@ -132,58 +131,63 @@ const config = {
         //   position: 'right',
         //   to: 'project',
         // },
-        // {
-        //   type: 'localeDropdown',
-        //   position: 'right',
-        // },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: '学习',
-          items: [
-            {
-              label: '标签',
-              to: '/docs/tags',
-            },
-            {
-              label: '归档',
-              to: 'archive',
-            },
+        // {
+        //   title: '学习',
+        //   items: [
+        //     {
+        //       label: '标签',
+        //       to: '/docs/tags',
+        //     },
+        //     {
+        //       label: '归档',
+        //       to: 'archive',
+        //     },
 
-          ],
-        },
+        //   ],
+        // },
         {
-          title: '产品',
+          title: 'Apps',
           items: [
             {
-              label: '秩序目标',
+              label: 'OrderOkr',
               href: 'https://www.orderokr.com/',
             },
-            {
-              label: '巴菲特说',
-              href: 'https://buffettsay.vercel.app/',
-            },
+            // {
+            //   label: '巴菲特说',
+            //   href: 'https://buffettsay.vercel.app/',
+            // },
           
           ],
         },
         {
           title: '社交媒体',
           items: [
-            {
-              label: '即刻',
-              href: 'https://okjk.co/LNZ7PQ',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/dadaotianfang',
-            },
-            {
-              label: '小红书',
-              href: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
-            },
+            // {
+            //   label: '即刻',
+            //   href: 'https://okjk.co/LNZ7PQ',
+            // },
+            // {
+            //   label: 'Twitter',
+            //   href: 'https://twitter.com/dadaotianfang',
+            // },
+            // {
+            //   label: '小红书',
+            //   href: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
+            // },
             {
               label: 'bento',
               href: 'https://bento.me/ddtf',
@@ -208,7 +212,7 @@ const config = {
         //   ],
         // },
       ],
-      copyright: `<p>Copyright © 2023 -大盗天放</p>`,
+      copyright: `<p>Copyright © 2023 - DDTF </p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -271,8 +275,7 @@ const config = {
       github: 'https://github.com/postpascal',
       twitter: 'https://twitter.com/dadaotianfang',
       jike:  'https://okjk.co/LNZ7PQ',
-      redbook: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431',
-      zhihu: 'https://www.zhihu.com/people/opendayoff'
+      redbook: 'https://www.xiaohongshu.com/user/profile/635e8475000000001901f56a?xhsshare=CopyLink&appuid=635e8475000000001901f56a&apptime=1669426431'
 
     },
   },
@@ -346,7 +349,7 @@ const config = {
         feedOptions: {
           type: 'all',
           title: '大盗天放',
-          copyright: `Copyright © ${new Date().getFullYear()} 大盗天放 Built with Docusaurus`,
+          copyright: `Copyright © ${new Date().getFullYear()} DDTF`,
         },
       },
     ],
@@ -387,7 +390,7 @@ const config = {
   ],
   stylesheets: [],
   i18n: {
-    defaultLocale: 'zh-CN',
+    defaultLocale: 'en',
     locales: ['en', 'zh-CN'],
     localeConfigs: {
       en: {

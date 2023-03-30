@@ -42,5 +42,9 @@
   "item.label.网盘": {
     "message": "网盘",
     "description": "Navbar item with label 网盘"
+  },
+  "item.label.秩序目标": {
+    "message": "秩序目标",
+    "description": "Navbar item with label 秩序目标"
   }
 }
