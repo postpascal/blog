@@ -48,6 +48,9 @@
     "message": "自我介绍",
     "description": "follow me btn text"
   },
+  "hompage.hero.orderokr": {
+    "message": "秩序目标"
+  },
   "阅读全文": {
     "message": "阅读全文",
     "description": "read full text"

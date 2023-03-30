@@ -30,6 +30,9 @@
   "hompage.hero.introduce": {
     "message": "Introduce"
   },
+  "hompage.hero.orderokr": {
+    "message": "OrderOkr"
+  },
   "theme.blog.archive.posts.total": {
     "message": "Total {total} posts"
   },
