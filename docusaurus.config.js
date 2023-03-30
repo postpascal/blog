@@ -7,7 +7,7 @@ const katex = require('rehype-katex');
 const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc" target="_blank">Typescript 全栈最值得学习的技术栈 TRPC</a>`
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '大盗天放',
+  title: 'DDTF',
   titleDelimiter: '-',
   url: 'https://ddtf.top',
   baseUrl: '/',
@@ -42,7 +42,7 @@ const config = {
       },
     },
     navbar: {
-      title: '大盗天放',
+      title: 'DDTF',
       logo: {
         alt: 'ddtf',
         src: 'img/logo.webp',
